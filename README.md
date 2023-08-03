@@ -31,23 +31,23 @@ compression, strong consistency, poison pill detection, etc.
 Message queues generally provide a loosely-coupled, asynchronous communication
 channel ("queue") between application services (producers and consumers) that
 send messages to one another. You can think about it like a mailbox for
-communication between application programs, where 'producer' drops a message in
-a mailbox and 'consumer' picks it up at its own leisure. Messages placed into
+communication between application programs, where a "producer" drops a message in
+a mailbox and a "consumer" picks it up at its own leisure. Messages placed into
 the queue are stored until the recipient retrieves and processes them. In other
 words, producer and consumer applications can temporally and spatially isolate
 themselves from each other by using a message queue to facilitate
 communication.
 
-BlazingMQ's back-end (message brokers) has been implemented in C++, and client
+BlazingMQ's back-end (message broker) has been implemented in C++, and client
 libraries are available in C++, Java, and Python (the Python SDK will be
 published shortly as open source too!).
 
 BlazingMQ is an actively developed project and has been battle-tested in
 production at Bloomberg for 8+ years.
 
-This repository contains BlazingMQ message broker, BlazingMQ C++ client library
-and a BlazingMQ command line tool, while BlazingMQ Java client library can be
-found in [this](https://github.com/bloomberg/blazingmq-sdk-java) repository.
+This repository contains the BlazingMQ message broker, the BlazingMQ C++ client
+library and a BlazingMQ command line tool, while a BlazingMQ Java client library
+can be found in [this](https://github.com/bloomberg/blazingmq-sdk-java) repository.
 
 ---
 
